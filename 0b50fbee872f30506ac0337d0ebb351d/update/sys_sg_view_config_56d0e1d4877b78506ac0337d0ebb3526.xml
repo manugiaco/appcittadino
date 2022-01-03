@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Mappa delle segnalazioni Card</name>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-09 11:09:00</sys_created_on>
+        <sys_id>56d0e1d4877b78506ac0337d0ebb3526</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mappa delle segnalazioni Card</sys_name>
+        <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+        <sys_update_name>sys_sg_view_config_56d0e1d4877b78506ac0337d0ebb3526</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-09 11:09:00</sys_updated_on>
+        <table>x_snc_cittadino_segnalazioni</table>
+        <template display_value="Map">eae03e5c41a71010f877183fc9b8be24</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=56d0e1d4877b78506ac0337d0ebb3526"/>
+</record_update>

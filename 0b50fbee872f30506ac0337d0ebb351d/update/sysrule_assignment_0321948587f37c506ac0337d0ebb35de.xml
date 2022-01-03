@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment">
+    <sysrule_assignment action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_cittadino_intervento">tipologia_di_interventoINtombino_ostruito,potatura,buca_manto_stradale^EQ<item display_value="tombino_ostruito,potatura,buca_manto_stradale" endquery="false" field="tipologia_di_intervento" goto="false" newquery="false" operator="IN" or="false" value="tombino_ostruito,potatura,buca_manto_stradale"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <group display_value="Ufficio manutenzione strade" name="Ufficio manutenzione strade">e5e0144187f37c506ac0337d0ebb351d</group>
+        <match_conditions>ALL</match_conditions>
+        <name>AES Cittadino - Buche/Potatura/Tombini</name>
+        <order>2</order>
+        <script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script>
+        <sys_class_name>sysrule_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-11 13:16:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0321948587f37c506ac0337d0ebb35de</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>AES Cittadino - Buche/Potatura/Tombini</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+        <sys_update_name>sysrule_assignment_0321948587f37c506ac0337d0ebb35de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-12 14:36:45</sys_updated_on>
+        <table>x_snc_cittadino_intervento</table>
+        <user/>
+    </sysrule_assignment>
+</record_update>

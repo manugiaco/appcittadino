@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="abitanti" label="Abitanti" language="en" table="x_snc_cittadino_comune">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>abitanti</element>
+            <help/>
+            <hint/>
+            <label>Abitanti</label>
+            <language>en</language>
+            <name>x_snc_cittadino_comune</name>
+            <plural>Abitantis</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-17 14:33:07</sys_created_on>
+            <sys_id>924c933e873ff4906ac0337d0ebb3582</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Abitanti</sys_name>
+            <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_cittadino_comune_abitanti_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-17 14:33:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

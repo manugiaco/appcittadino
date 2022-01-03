@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Le mie segnalazioni</name>
+        <query_condition table="x_snc_cittadino_segnalazioni">stato!=chiusa<item display_value="Chiusa" endquery="false" field="stato" goto="false" newquery="false" operator="!=" or="false" value="chiusa"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-04 13:17:17</sys_created_on>
+        <sys_id>054e087a87ef30506ac0337d0ebb35bf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Le mie segnalazioni</sys_name>
+        <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+        <sys_update_name>sys_sg_data_item_054e087a87ef30506ac0337d0ebb35bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-16 09:43:15</sys_updated_on>
+        <table>x_snc_cittadino_segnalazioni</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=054e087a87ef30506ac0337d0ebb35bf"/>
+</record_update>

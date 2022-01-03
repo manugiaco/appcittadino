@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="stato" table="x_snc_cittadino_segnalazioni" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>stato</element>
+            <name>x_snc_cittadino_segnalazioni</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-04 12:17:24</sys_created_on>
+            <sys_id>e78080b687af30506ac0337d0ebb35fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>stato</sys_name>
+            <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+            <sys_update_name>sys_choice_x_snc_cittadino_segnalazioni_stato</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-04 12:17:24</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stato</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In approvazione</label>
+            <language>en</language>
+            <name>x_snc_cittadino_segnalazioni</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-04 12:17:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f8080b687af30506ac0337d0ebb35f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-04 12:17:24</sys_updated_on>
+            <value>in_approvazione</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stato</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aperta</label>
+            <language>en</language>
+            <name>x_snc_cittadino_segnalazioni</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-04 12:17:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>278080b687af30506ac0337d0ebb35b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-04 12:17:24</sys_updated_on>
+            <value>aperta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stato</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intervento pianificato</label>
+            <language>en</language>
+            <name>x_snc_cittadino_segnalazioni</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-04 12:17:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b8080b687af30506ac0337d0ebb35fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-04 12:17:24</sys_updated_on>
+            <value>intervento_pianificato</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stato</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chiusa</label>
+            <language>en</language>
+            <name>x_snc_cittadino_segnalazioni</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-04 12:17:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7780c0b687af30506ac0337d0ebb3511</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-04 12:17:24</sys_updated_on>
+            <value>chiusa</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

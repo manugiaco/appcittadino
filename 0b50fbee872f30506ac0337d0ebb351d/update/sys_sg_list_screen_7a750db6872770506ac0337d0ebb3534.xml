@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <hide_filters>true</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-List">24c6e0f81167b4108291fad628ac76fd</icon>
+        <name>Segnalazioni del mese</name>
+        <roles_override>public</roles_override>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-04 17:18:33</sys_created_on>
+        <sys_id>7a750db6872770506ac0337d0ebb3534</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Segnalazioni del mese</sys_name>
+        <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+        <sys_update_name>sys_sg_list_screen_7a750db6872770506ac0337d0ebb3534</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-04 17:36:48</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=7a750db6872770506ac0337d0ebb3534"/>
+</record_update>

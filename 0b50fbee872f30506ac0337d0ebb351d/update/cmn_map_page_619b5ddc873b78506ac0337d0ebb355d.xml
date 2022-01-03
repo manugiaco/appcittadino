@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>45,4642035, 9,189982</center_address>
+        <center_latitude/>
+        <center_longitude/>
+        <controls_size>large</controls_size>
+        <coordinates_retrieved_on/>
+        <disable_map_controls/>
+        <disable_nav_bar>false</disable_nav_bar>
+        <filter/>
+        <initial_zoom>2</initial_zoom>
+        <name>x_snc_cittadino_AES Cittadino</name>
+        <overview>false</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <roles/>
+        <script><![CDATA[//get the instances url so we can link back to it
+var uri = gs.getProperty("glide.servlet.uri");
+//create an aggregate query on the Segnalazioni table
+var count = new GlideAggregate('x_snc_cittadino_segnalazioni');
+//set condition for active records
+count.addQuery('active', 'true');
+//set aggregate field to location to get count by location
+count.addAggregate('COUNT', 'location');
+//execute the query
+count.query();
+ 
+//loop through the results
+while (count.next()) {
+ 
+ //get the current record's location
+ var loc = count.location;
+ //get the count of records for this location
+ var locCount = count.getAggregate('COUNT', 'location');
+ //only display location is there are active records
+ if (locCount > 0) {
+ //create new new map item for this location
+ var item = map.addItem(count);
+ //set lat/long from the location record
+ item.latitude = loc.latitude;
+ item.longitude = loc.longitude;
+ //build the link to the list of Segnalazioni for the location
+ var link = 'href=' + uri + 'x_snc_cittadino_segnalazioni_list.do?sysparm_query=active%3Dtrue^location%3D' + loc;
+ //build the html value to be displayed when you click the map icon
+ item.html='<a ' + link + '>' + loc.getDisplayValue() + ' (' + locCount + ')</a>';
+ //link to the icon image
+ item.icon = "http://maps.google.com/mapfiles/kml/pal3/icon51.png";
+ //set the size of the icon based on the number of active incidents
+ if (locCount < 5) {
+ item.icon_width = "12";
+ item.icon_height = "12";
+ }
+ else if (locCount < 15) {
+ item.icon_width = "16";
+ item.icon_height = "16";
+ }
+ else {
+ item.icon_width = "32";
+ item.icon_height = "32";
+ }
+ }
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>AES Cittadino</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-09 10:48:15</sys_created_on>
+        <sys_id>619b5ddc873b78506ac0337d0ebb355d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_snc_cittadino_AES Cittadino</sys_name>
+        <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+        <sys_update_name>cmn_map_page_619b5ddc873b78506ac0337d0ebb355d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-09 10:52:19</sys_updated_on>
+        <type>normal</type>
+        <type_selection>buttons</type_selection>
+        <use_advanced_configuration>false</use_advanced_configuration>
+    </cmn_map_page>
+</record_update>

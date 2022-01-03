@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description>Tutte le segnalazioni dell'ultimo mese</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Segnalazioni ultimo mese</name>
+        <query_condition table="x_snc_cittadino_segnalazioni">sys_created_onONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-04 17:12:22</sys_created_on>
+        <sys_id>90148576872770506ac0337d0ebb3582</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Segnalazioni ultimo mese</sys_name>
+        <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+        <sys_update_name>sys_sg_data_item_90148576872770506ac0337d0ebb3582</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-08 11:34:07</sys_updated_on>
+        <table>x_snc_cittadino_segnalazioni</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=90148576872770506ac0337d0ebb3582"/>
+</record_update>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tipo_segnalazione" table="x_snc_cittadino_segnalazioni" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tipo_segnalazione</element>
+            <name>x_snc_cittadino_segnalazioni</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-04 12:17:23</sys_created_on>
+            <sys_id>138080b687af30506ac0337d0ebb358e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tipo_segnalazione</sys_name>
+            <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+            <sys_update_name>sys_choice_x_snc_cittadino_segnalazioni_tipo_segnalazione</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-04 12:17:23</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo_segnalazione</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tombino ostruito</label>
+            <language>en</language>
+            <name>x_snc_cittadino_segnalazioni</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-04 12:17:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>938080b687af30506ac0337d0ebb358d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-04 12:17:23</sys_updated_on>
+            <value>tombino_ostruito</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo_segnalazione</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rifiuti abbandonati</label>
+            <language>en</language>
+            <name>x_snc_cittadino_segnalazioni</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-04 12:17:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>278080b687af30506ac0337d0ebb3592</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-04 12:17:23</sys_updated_on>
+            <value>rifiuti_abbandonati</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo_segnalazione</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sfalcio marciapiedi</label>
+            <language>en</language>
+            <name>x_snc_cittadino_segnalazioni</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-04 12:17:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>278080b687af30506ac0337d0ebb35ae</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-15 16:06:04</sys_updated_on>
+            <value>sfalcio_marciapiedi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo_segnalazione</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Buca manto stradale</label>
+            <language>en</language>
+            <name>x_snc_cittadino_segnalazioni</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-04 12:17:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>278080b687af30506ac0337d0ebb35b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-04 12:17:24</sys_updated_on>
+            <value>buca_manto_stradale</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

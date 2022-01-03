@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Segnalazioni del cittadino_menu_config</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-04 12:57:23</sys_created_on>
+        <sys_id>15b9ccb287ef30506ac0337d0ebb35c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Segnalazioni del cittadino_menu_config</sys_name>
+        <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_15b9ccb287ef30506ac0337d0ebb35c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-04 12:57:23</sys_updated_on>
+    </sys_ux_list_menu_config>
+</record_update>
