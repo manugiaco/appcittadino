@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>pdf_cell_type=image</attributes>
+        <attributes>edge_encryption_enabled=true,pdf_cell_type=image</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>

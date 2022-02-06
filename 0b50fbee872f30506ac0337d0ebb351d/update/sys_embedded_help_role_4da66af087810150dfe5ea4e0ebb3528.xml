@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sn_dd_cittadino_publishtoapprepo" name="sn_dd_cittadino_publishtoapprepo">81a66af087810150dfe5ea4e0ebb3526</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 08:49:22</sys_created_on>
+        <sys_id>4da66af087810150dfe5ea4e0ebb3528</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>81a66af087810150dfe5ea4e0ebb3526</sys_name>
+        <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_4da66af087810150dfe5ea4e0ebb3528</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 08:49:22</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Segnalazioni" max_length="40" name="x_snc_cittadino_segnalazioni" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Allegato" max_length="40" name="allegato" type="file_attachment"/>
+        <element active="false" attributes="edge_encryption_enabled=true,encode_utf8=false" label="Approval" max_length="32" name="approval" reference="sysapproval_approver" type="reference"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="1" label="Approvazione" max_length="40" name="approvazione" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approve" sequence="10" value="approve"/>
+                <element inactive_on_update="false" label="Reject" sequence="20" value="reject"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Comune" max_length="32" name="comune" reference="x_snc_cittadino_comune" type="reference"/>
+        <element default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Data e ora" max_length="40" name="data_e_ora" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Descrizione" max_length="1000" name="descrizione" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Intervento" max_length="32" name="intervento" reference="x_snc_cittadino_intervento" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element label="Posizione" max_length="40" name="posizione" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="in_approvazione" label="Stato" max_length="40" name="stato" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In approvazione" sequence="10" value="in_approvazione"/>
+                <element inactive_on_update="false" label="Aperta" sequence="20" value="aperta"/>
+                <element inactive_on_update="false" label="Intervento pianificato" sequence="30" value="intervento_pianificato"/>
+                <element inactive_on_update="false" label="Chiusa" sequence="40" value="chiusa"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tipo segnalazione" max_length="40" name="tipo_segnalazione" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Tombino ostruito" sequence="10" value="tombino_ostruito"/>
+                <element inactive_on_update="false" label="Rifiuti abbandonati" sequence="20" value="rifiuti_abbandonati"/>
+                <element inactive_on_update="false" label="Sfalcio marciapiedi" sequence="30" value="sfalcio_marciapiedi"/>
+                <element inactive_on_update="false" label="Buca manto stradale" sequence="40" value="buca_manto_stradale"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Icon" max_length="100" name="u_icon" type="icon"/>
+        <index name="index">
+            <element name="comune"/>
+        </index>
+        <index name="index2">
+            <element name="intervento"/>
+        </index>
+        <index name="index3">
+            <element name="approval"/>
+        </index>
+        <index name="index4">
+            <element name="location"/>
+        </index>
+        <index name="index5">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

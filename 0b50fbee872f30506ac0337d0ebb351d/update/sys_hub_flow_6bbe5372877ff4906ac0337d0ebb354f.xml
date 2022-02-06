@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6bbe5372877ff4906ac0337d0ebb354f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Chiusura intervento</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
         <sys_update_name>sys_hub_flow_6bbe5372877ff4906ac0337d0ebb354f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-17 14:45:53</sys_updated_on>
+        <sys_updated_on>2022-01-03 14:57:44</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=6bbe5372877ff4906ac0337d0ebb354f"/>
@@ -617,11 +617,11 @@
         <sys_created_on>2021-11-17 14:45:45</sys_created_on>
         <sys_id>672fdb72877ff4906ac0337d0ebb35de</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6bbe5372877ff4906ac0337d0ebb354f_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-17 14:45:45</sys_updated_on>
         <url/>
@@ -640,11 +640,11 @@
         <sys_created_on>2021-11-17 14:45:45</sys_created_on>
         <sys_id>6f2fdb72877ff4906ac0337d0ebb35d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6bbe5372877ff4906ac0337d0ebb354f_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-17 14:45:45</sys_updated_on>
         <url/>
@@ -663,11 +663,11 @@
         <sys_created_on>2021-11-17 14:45:45</sys_created_on>
         <sys_id>ef2fdb72877ff4906ac0337d0ebb35d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6bbe5372877ff4906ac0337d0ebb354f_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-17 14:45:45</sys_updated_on>
         <url/>
@@ -1256,11 +1256,11 @@
         <sys_created_on>2021-11-17 14:45:51</sys_created_on>
         <sys_id>783f5f72877ff4906ac0337d0ebb3531</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f43f5f72877ff4906ac0337d0ebb350f_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-17 14:45:51</sys_updated_on>
         <url/>
@@ -1279,11 +1279,11 @@
         <sys_created_on>2021-11-17 14:45:51</sys_created_on>
         <sys_id>813f5f72877ff4906ac0337d0ebb353d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f43f5f72877ff4906ac0337d0ebb350f_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-17 14:45:51</sys_updated_on>
         <url/>
@@ -1302,11 +1302,11 @@
         <sys_created_on>2021-11-17 14:45:51</sys_created_on>
         <sys_id>c53f5f72877ff4906ac0337d0ebb3548</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f43f5f72877ff4906ac0337d0ebb350f_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-17 14:45:51</sys_updated_on>
         <url/>

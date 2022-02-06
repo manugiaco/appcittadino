@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-04 12:18:06</sys_created_on>
-        <sys_id>c2b084b687af30506ac0337d0ebb3597</sys_id>
+        <sys_id>3d946dce87340954dfe5ea4e0ebb357b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_cittadino_intervento</sys_name>
         <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
-        <sys_update_name>ua_table_licensing_config_c2b084b687af30506ac0337d0ebb3597</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_3d946dce87340954dfe5ea4e0ebb357b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-04 12:18:06</sys_updated_on>
     </ua_table_licensing_config>

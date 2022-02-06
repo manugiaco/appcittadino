@@ -14,6 +14,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-15 14:48:43</sys_updated_on>
         <view_config display_value="Mappa delle segnalazioni">1ad0e1d4877b78506ac0337d0ebb3529</view_config>
-        <view_template_slot display_value="text_02">1eb4d909877b7c506ac0337d0ebb3516</view_template_slot>
+        <view_template_slot display_value="">1eb4d909877b7c506ac0337d0ebb3516</view_template_slot>
     </sys_sg_view_config_element>
 </record_update>

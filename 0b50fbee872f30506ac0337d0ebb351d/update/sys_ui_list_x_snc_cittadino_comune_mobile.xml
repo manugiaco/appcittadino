@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="aa46f073871330106ac0337d0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
+            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="b8c1e16287333010dfe5ea4e0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>abitanti</element>
-            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="aa46f073871330106ac0337d0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
+            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="b8c1e16287333010dfe5ea4e0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>cap</element>
-            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="aa46f073871330106ac0337d0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
+            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="b8c1e16287333010dfe5ea4e0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>codfisco</element>
-            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="aa46f073871330106ac0337d0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
+            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="b8c1e16287333010dfe5ea4e0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>comune</element>
-            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="aa46f073871330106ac0337d0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
+            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="b8c1e16287333010dfe5ea4e0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>link</element>
-            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="aa46f073871330106ac0337d0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
+            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="b8c1e16287333010dfe5ea4e0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -93,7 +93,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>prefisso</element>
-            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="aa46f073871330106ac0337d0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
+            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="b8c1e16287333010dfe5ea4e0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -108,7 +108,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>provincia</element>
-            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="aa46f073871330106ac0337d0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
+            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="b8c1e16287333010dfe5ea4e0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -123,7 +123,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>regione</element>
-            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="aa46f073871330106ac0337d0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
+            <list_id display_value="x_snc_cittadino_comune" element="NULL" name="x_snc_cittadino_comune" parent="NULL" relationship="NULL" sys_domain="global" view="b8c1e16287333010dfe5ea4e0ebb35f1">b48ddfbe873ff4906ac0337d0ebb3547</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
@@ -160,7 +160,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-11-17 14:38:28</sys_updated_on>
             <sys_user/>
-            <view display_value="Mobile" name="Mobile">aa46f073871330106ac0337d0ebb35f1</view>
+            <view display_value="Mobile" name="Mobile">b8c1e16287333010dfe5ea4e0ebb35f1</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

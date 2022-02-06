@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Segnala una situazione d'emergenza">c712843a87af30506ac0337d0ebb352c</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 14:57:35</sys_created_on>
+        <sys_id>db94210287740954dfe5ea4e0ebb355a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Segnala una situazione d'emergenza.SNC External</sys_name>
+        <sys_package display_value="DemoHub App Home" source="x_snc_dh_app_home">3a61c8fd1b08a010b40420a8ec4bcbbc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_db94210287740954dfe5ea4e0ebb355a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 14:57:35</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>

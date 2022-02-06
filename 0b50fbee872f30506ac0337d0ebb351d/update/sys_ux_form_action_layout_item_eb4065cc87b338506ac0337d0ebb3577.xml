@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
     <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
-        <action display_value="Approve">64c624f8bb67b41000ad66153d84d64c</action>
+        <action display_value="">64c624f8bb67b41000ad66153d84d64c</action>
         <active>true</active>
         <color>primary</color>
         <description>Approve</description>

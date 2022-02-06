@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Comune" max_length="40" name="x_snc_cittadino_comune" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Abitanti" max_length="40" name="abitanti" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="CAP" max_length="40" name="cap" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CodFisco" max_length="40" name="codfisco" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Comune" max_length="40" name="comune" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Link" max_length="40" name="link" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Prefisso" max_length="40" name="prefisso" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Provincia" max_length="40" name="provincia" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Regione" max_length="40" name="regione" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="changed_fields" label="Changed Fields" language="en" table="var__m_sys_hub_flow_input_8bf4a0ba876370506ac0337d0ebb35bf">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>changed_fields</element>
+            <help/>
+            <hint/>
+            <label>Changed Fields</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_8bf4a0ba876370506ac0337d0ebb35bf</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-04 16:18:05</sys_created_on>
+            <sys_id>99a7f8b287e370506ac0337d0ebb35ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Changed Fields</sys_name>
+            <sys_package display_value="Cittadino" source="x_snc_cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cittadino">0b50fbee872f30506ac0337d0ebb351d</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8bf4a0ba876370506ac0337d0ebb35bf_changed_fields_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-04 16:18:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

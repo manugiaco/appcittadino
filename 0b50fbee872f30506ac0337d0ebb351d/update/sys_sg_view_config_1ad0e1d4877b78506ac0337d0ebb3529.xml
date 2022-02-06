@@ -16,7 +16,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-15 14:48:19</sys_updated_on>
         <table>x_snc_cittadino_segnalazioni</table>
-        <template display_value="Segnalazioni">16b4d909877b7c506ac0337d0ebb350d</template>
+        <template display_value="">16b4d909877b7c506ac0337d0ebb350d</template>
     </sys_sg_view_config>
     <sys_translated_text action="delete_multiple" query="documentkey=1ad0e1d4877b78506ac0337d0ebb3529"/>
 </record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Intervento" max_length="40" name="x_snc_cittadino_intervento" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Segnalazione" max_length="32" name="segnalazione" reference="x_snc_cittadino_segnalazioni" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tipologia di intervento" max_length="40" name="tipologia_di_intervento" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Tombino ostruito" sequence="10" value="tombino_ostruito"/>
+                <element inactive_on_update="false" label="Rifiuti abbandonati" sequence="20" value="rifiuti_abbandonati"/>
+                <element inactive_on_update="false" label="Sfalcio marciapiedi" sequence="30" value="sfalcio_marciapiedi"/>
+                <element inactive_on_update="false" label="Buca manto stradale" sequence="40" value="buca_manto_stradale"/>
+            </choice>
+        </element>
+    </element>
+</database>

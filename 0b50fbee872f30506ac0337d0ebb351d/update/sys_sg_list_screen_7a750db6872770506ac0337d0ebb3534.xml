@@ -8,7 +8,7 @@
         <filter/>
         <hide_filters>true</hide_filters>
         <hide_screen_name>false</hide_screen_name>
-        <icon display_value="icon-List">24c6e0f81167b4108291fad628ac76fd</icon>
+        <icon display_value="">24c6e0f81167b4108291fad628ac76fd</icon>
         <name>Segnalazioni del mese</name>
         <roles_override>public</roles_override>
         <sys_class_name>sys_sg_list_screen</sys_class_name>
